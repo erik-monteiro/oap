@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main
+public class App
 {
 	public static void main(String[] args) {
 	    System.out.println("Programa Ackermann");
@@ -13,9 +13,9 @@ public class Main
 	}
 	
 	public static String lerValoresEPrintar() {
-        Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
        	
-       	System.out.println("Digite os parâmetros m e n para calcular A(m, n) ou -1 para abortar a execução");
+       	    System.out.println("Digite os parâmetros m e n para calcular A(m, n) ou -1 para abortar a execução");
 	    int m = sc.nextInt();
 	    if (m < 0) System.exit(0);
 	    int n = sc.nextInt();

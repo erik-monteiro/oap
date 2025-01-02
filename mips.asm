@@ -68,7 +68,7 @@ recursao2:
 	
 recursao3:
 	move $a0, $s0 # a0 : M = m
-	addi $a1, $s1, -1 # a1 : N = (n-1)
+	addi $a1, $s1, -1 # a1 : N = (n-1) zfhgk5gw3v
         jal ackermann
         move $a1, $v0 # a1 : N = A(m,n-1)
         addi $a0, $s0, -1 # a0 : M = (m-1)

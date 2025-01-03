@@ -34,5 +34,5 @@ public class App
 	    if (m > 0 && n > 0) result = ackermann(m - 1, ackermann(m, n - 1));
 	    
 	    return result;
-	} C4gWF8ndeD
+	}
 }

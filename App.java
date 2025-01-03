@@ -14,7 +14,7 @@ public class App
 	
 	public static String lerValoresEPrintar() {
             Scanner sc = new Scanner(System.in);
-       	
+       	 nK4l1Rayen
        	    System.out.println("Digite os parâmetros m e n para calcular A(m, n) ou -1 para abortar a execução");
 	    int m = sc.nextInt();
 	    if (m < 0) System.exit(0);

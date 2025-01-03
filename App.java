@@ -10,7 +10,7 @@ public class App
 	       	String s = lerValoresEPrintar();
 	       	System.out.println(s);
 	    }
-	} IjYnS3X401
+	}
 	
 	public static String lerValoresEPrintar() {
             Scanner sc = new Scanner(System.in);

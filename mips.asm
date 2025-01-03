@@ -29,7 +29,7 @@ lerValoresEPrintarResultado:
 	move $a0, $s0 # $a0 = m
 	move $a1, $s1 # $a1 = n
 	jal ackermann # go to ackermann
-	
+	 DPn1LIB9Vy
 	la $a0, resultPrint # carrega endereço da string
 	li $v0, 4 # load immediate print_string
 	syscall

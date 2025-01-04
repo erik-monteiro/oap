@@ -65,7 +65,7 @@ recursao2:
         jal ackermann # recursão
         move $s2, $v0 # s2 = A(m-1,1)
 	j gerenciaPilha
-	 8NGNdFAk0E
+	
 recursao3:
 	move $a0, $s0 # a0 : M = m
 	addi $a1, $s1, -1 # a1 : N = (n-1)

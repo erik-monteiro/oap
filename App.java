@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App
 {
 	public static void main(String[] args) {
-	    System.out.println("Programa Ackermann"); a1IvOPOTsP
+	    System.out.println("Programa Ackermann");
 	    System.out.println("“Componentes: <Gabriel Verdi, Erik Monteiro, Henrique>");
 	    
 	    while (true) {
